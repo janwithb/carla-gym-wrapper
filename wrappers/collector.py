@@ -5,7 +5,7 @@ from gym import Wrapper
 
 
 class DataCollector(Wrapper):
-    def __init__(self, env, steps, save_dir, load_dir=None):
+    def __init__(self, env, steps=1000, save_dir='./', load_dir='./'):
         super(DataCollector, self).__init__(env)
 
         self.dataset = {
