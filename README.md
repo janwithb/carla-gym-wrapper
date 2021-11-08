@@ -1,4 +1,4 @@
-# Carla Gym Wrapper
+# CARLA Gym Wrapper
 A simple gym environment wrapping Carla, a simulator for autonomous driving research. The environment is designed for developing and comparing reinforcement learning algorithms. Trackable costs also enable the application of safe reinforcement learning algorithms.
 
 ![carla](https://user-images.githubusercontent.com/62486916/130417542-5067c3f6-57de-4295-a572-15a13493f5b5.png)
